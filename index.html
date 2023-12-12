@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,65 +13,119 @@
     <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <!-- <link rel="icon" href="favicon1.png" type="image/jpeg"> -->
+    
     <!-- Bootstrap css -->
-     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> -->
+
+  <!-- font awesome  -->
+  <link rel="stylesheet" href="  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
+
 <body>
-    <marquee direction="right" ><mark> welcome to learn html</mark></marquee>
+    <marquee direction="right"><mark> welcome to learn html</mark></marquee>
     <div id="sam" class="sam"> </div>
 
     <p style="background-color: powderblue">Hi handsome hunk....</p>
-    <h1>Welcome to Samir</h1> 
-    <h2>Welcome to Samir</h2>
-    <h3>Welcome to Samir</h3>
-    <h4>Welcome to Samir</h4>
-    <h5>Welcome to Samir</h5>
-   
-   
-  <form action=" " style="border: 1px solid red;"> 
-   <br>
-   <p>Name: <input type="text" placeholder="enter name" required value=""></p>
-   <p>Email:<input type="email" placeholder="enter email"></p>
-   <p>Password: <input type="password">
-    <input type="reset"></p>
-    <input type="date"><br>
-    <input type="number" value="1" step="2"><br>
-    <input type="file" multiple enctype="multipart/form-data"><br>
-    <input type="radio" name="gender" checked>Male
-    <input type="radio" name="gender">Female
-    <input type="radio" name="gender">Other
-    <br>
+    <div style="text-shadow:5px 5px 5px rgb(255, 0, 200);">
+        <h1>Welcome to Samir</h1>
+        <h2>Welcome to Samir</h2>
+        <h3>Welcome to Samir</h3>
+        <h4>Welcome to Samir</h4>
+        <h5>Welcome to Samir</h5>
+    </div>
+    <div style="display: grid;  
+   place-items: center;">
+        <form action="https://formspree.io/f/xeqdqalv" method="POST"
+            style="border: 1px solid red; width: 50%; padding: 10px;">
+            <br>
+            <label>Name</label> <input type="text" placeholder="enter name" name="name" required autocomplete="off" />
+            <p>Email:<input type="email" placeholder="enter email" name="email" required /></p>
+            <p>Password: <input type="password" placeholder="enter password" name="password" required />
+                <input type="reset" /></p>
+            <label>Number</label> <input type="number" name="number" required /> <br>
+            <br>
+            <input type="date" name="date" required /><br>
 
-   
-    <p> Favourite sports: <br>
-        <input type="checkbox" name="sports">gym
-        <input type="checkbox" name="sports">cricket
-        <input type="checkbox" name="sports">football
-        <input type="checkbox" name="sports">basketball</p>
-   
-        <p> Favourite place: <br>
-        <input type="checkbox" name="place">Kolkata
-        <input type="checkbox" name="place">Delhi
-        <input type="checkbox" name="place">Mumbai
-        <input type="checkbox" name="place">Kashmir
-        <input type="checkbox" name="place">Manali </p><br>
+            <br>
+            <input type="file" multiple enctype="multipart/form-data" /><br>
+            <br>
+            <input type="radio" name="gender " />Male
+            <!-- checked -->
+            <input type="radio" name="gender" />Female
 
-   <textarea rows="10" cols="30" >hello say something...</textarea><br>
-   <input type="image" src="submit.jpg" width="100" height="50"><br>
-  
-   </form>
+            <p>Color <input type="color" name="color"></p>
 
- 
+            <br>
 
+            <p> Favourite sports: <br>
+                <input type="checkbox" name="name">gym
+                <input type="checkbox" name="sports">cricket
+                <input type="checkbox" name="sports">football
+                <input type="checkbox" name="sports">basketball</p>
+
+            <p> Favourite place: <br>
+                <input type="checkbox" name="name" />Kolkata
+                <input type="checkbox" name="place" />Delhi
+                <input type="checkbox" name="place" />Mumbai
+                <input type="checkbox" name="place" />Kashmir
+                <input type="checkbox" name="place" />Manali </p><br>
+
+            <textarea rows="10" cols="20" placeholder="hello say something.." name="textarea"></textarea><br>
+
+            <input type="image" src="submit.jpg" width="100" height="50"><br>
+
+        </form>
+    </div>
     <p><b>Lorem ipsum dolor</b> <abbr title="smart intelligent talented">sit </abbr>amet consectetur adipisicing elit.
-    <i> Iure autem sequi voluptas qui praesentium unde,</i> <small> quaerat nesciunt</small> 
-    voluptates porro impedit aliquid veniam. In tempore id alias amet pariatur iste.10<sup>2</sup>  CO<sub>2</sub> . 
-    <mark>Every day</mark> is a celebration of having you in my life.
-    <br>I thank God for making it possible for us to cross the path right from the beginning because 
-    that was where my <strong>life gained </strong> much impact on your love.<br>
-    <em>I cant love you</em> enough because you are a precious jewel in my world.</p>
+        <i> Iure autem sequi voluptas qui praesentium unde,</i> <small> quaerat nesciunt</small>
+        voluptates porro impedit aliquid veniam. In tempore id alias amet pariatur iste.
+        10<sup>2</sup> <!-- superscript 10^2 -->
+        CO<sub>2</sub>
+        <!--subscript  CO2 -->
+        <mark>Every day</mark> is a celebration of having you in my life.
+        <br>I <del>thank God</del> for making it possible for us to cross the path right from the beginning because
+        that was where my <strong>life gained </strong> much impact on your love .<br>
+        <em>I cant love you</em>
+        <address>because you are a precious</address> jewel in my world.
+    </p>
+
+    <p>samir</p>
+    <p>hello</p>
+    <span>hello</span> <span>samir</span>
     <hr>
+
+    <!-- BOX-SIZING  -->
+
+    <div style="width:100px; margin:auto;margin-bottom: 19px;box-sizing: border-box; padding: 100px; border: 2px solid red;">
+        <p>BOX SIZING</p>
+
+    </div>
+
+    <!-- 
+<div style="min-width: 500px; margin: auto; border: 2px solid blue;">
+    <img src="background.jpg" width="100%" alt="">
+    <p>this is min width</p>
+    <p>this is max width Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat rerum excepturi quasi ut iure, repellat animi distinctio natus, facilis aut non blanditiis doloribus culpa optio atque quidem laboriosam ad fuga?</p>
+
+</div> -->
+    <!-- <div style="max-width: 768px; margin: auto; border: 2px solid yellow;">
+    <p>this is max width</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt natus laudantium odit libero, odio optio. Nam, architecto hic sunt autem molestiae quasi accusamus sed exercitationem modi! Perspiciatis nam distinctio praesentium?</p>
+
+</div> -->
+
+
+    <div class="parent">
+        <div class="child">center me</div>
+    </div>
+
+    <p>Position</p>
+    <div id="parent">
+        <div id="one">1 absolute</div>
+        <div id="two">2 </div>
+        <!-- <div id="three"></div> -->
+    </div>
 
     <p>Flexbox</p>
     <div class="flex-container">
@@ -79,95 +134,408 @@
         <div class="flex-child">three</div>
         <div class="flex-child">four</div>
     </div>
-<br>
+    <br>
 
     <p>Grid</p>
+
+
     <div class="grid-container">
-        <div class="grid-item" id="grid1" >1</div>
-        <div class="grid-item" id="grid2" >2</div>
-        <div class="grid-item" id="grid3" >3</div>
+        <div class="grid item-1">1</div>
+        <div class="grid item-2">2</div>
+        <div class="grid item-3">3</div>
+        <div class="grid item-4">4</div>
+        <div class="grid item-5">5</div>
+        <div class="grid item-6">6</div>
+    </div>
+    <!-- <div class="grid-container">
+        <div class="grid-item" id="grid1">1</div>
+        <div class="grid-item" id="grid2">2</div>
+        <div class="grid-item" id="grid3">3</div>
         <div class="grid-item" id="grid4">4</div>
         <div class="grid-item" id="grid5">5</div>
-        <!-- <div class="grid-item">6</div> -->
-    </div>
+        <div class="grid-item">6</div>
+    </div> -->
     <style>
-        .flex-container{
+        /* position */
+        /* position relative; is moved  to its normal postion.
+  its move when we can add some properties to it,
+     like top,left,right,bottom.
+    
+/* position absolute; is moved  to the nearest parent postion.
+   if they have no parent positioned than its moves along with body
+
+if we  cannot add properties than its relative come inside it and absolute covered them.
+   */
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    scroll-behavior: smooth;
+} */
+   ::-webkit-scrollbar{
+       width: 5px;
+   }
+   
+   ::-webkit-scrollbar-track{
+       width: 5px;
+       background: transparent;
+   }
+   ::-webkit-scrollbar-thumb{
+       background:rgb(169, 119, 216);
+       width: 0;
+       border-radius: 5rem;
+       transition: 0.5s ease;
+       cursor: pointer;
+   }
+
+        #parent {
+            border: 2px solid blueviolet;
+            padding: 30px;
+            width: 35%;
+            position: relative;
+        }
+
+        #one {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            display: inline-block;
+            position: absolute;
+            top: 50px;
+            left: 150px;
+            /* z-index: 1; */
+
+        }
+
+        #two {
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            display: inline-block;
+         
+
+
+        }
+
+        /* #three {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            display: inline-block;
+            position: relative;
+            /* top: 0px; */
+            /* left: 50px; 
+        }*/
+       
+
+
+        /* flex */
+        .flex-container {
             background-color: red;
             display: flex;
             justify-content: space-between;
+            flex-wrap: wrap;
+
+
         }
 
-.flex-child{
-    background-color: whitesmoke;
-    margin: 20px;
+        .flex-child {
+            background-color: whitesmoke;
+            margin: 20px;
+            padding: 10px;
+            /* flex: 1; */
+
+        }
+
+
+        /* grid  */
+
+        .grid-container {
+            width: 100%;
+            background:pink;
+            display: grid;
+            /* grid-template-rows: 200px 200px; */
+            grid-template-rows: repeat(2,200px);
+            /* grid-template-columns:  200px 200px 200px; */
+            grid-template-columns: repeat(3,1fr);
+             gap: 30px;
+             /* row-gap: 30px;
+             column-gap: 30px; */
+        }
+
+        .grid {
+            display: grid;  
+            place-items: center;
+        }
+
+ .item-1{
+    background-color: red;
+    grid-row: 2 /3;
+    grid-column: 2 /3;
+ }
+ .item-2{
+    background-color:yellow;
+ }
+  
+ .item-3{
+    background-color: blue;
+
+ }
+  
+ .item-4{
+    background-color:green;
+ }
+  
+ .item-5{
+    background-color:white;
+ }
+  
+ .item-6{
+    background-color: black;
+    color: white;
+ }
+  
+        /* 
+        .grid-container {
+            background-color: red;
+            padding: 20px;
+            display: grid;
+            grid-template-areas:
+                'header header header header header header'
+                'menu main main main right right'
+                'menu footer footer footer footer footer';
+            grid-gap: 10px; */
+        /* 
+            grid-template-columns: 500px auto auto;
+    grid-template-rows: 100px 200px ;
+    grid-column-gap: 10px;
+    grid-row-gap: 10PX; } */
+
+
+
+        /* 
+        .grid-item {
+            background-color: wheat;
+            border: 1px solid red;
+            padding: 20px;
+            font-size: 40px;
+            text-align: center;
+        } */
+
+        /* #grid1{ */
+        /* grid-column-start: 1;
+         grid-column-end: 3; */
+        /* grid-column: 1/span 2; */
+        /* grid-column: 1/3; */
+        /* grid-row: 1/3; */
+        /* } */
+
+        /* #grid1 {
+            grid-area: header;
+        }
+
+        #grid2 {
+            grid-area: menu;
+        }
+
+        #grid3 {
+            grid-area: main;
+        }
+
+        #grid4 {
+            grid-area: right;
+        }
+
+        #grid5 {
+            grid-area: footer;
+        } */
+
+        /* 
+
+  <div style="text-align: center;">center me</div> 
+  <!--    --> 
+      padding: 50vh;
+      text-align: center;
+     */
+
+
+        .parent {
+            height: 100vh;
+            background-color: blue;
+            display: grid;
+            place-items: center;
+
+            /* display: flex;  DJA
+               justify-content: center;
+               align-items:center; */
+
+
+        }
+
+        .child {
+
+            height: 50%;
+            width: 50vw;
+            background-color: yellow;
+
+            /* text-align: center; */
+
+            /* for inner text in center */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+
+        .box-shadow {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(221, 61, 186);
+            margin: auto;
+            border-radius: 10px;
+            text-align: center;
+            /* x-axis  y-axis  blur  color */
+            box-shadow: 10px 10px 5px 0px grey;
+        }
+
+       .transition{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 30px;
+       }
+
+       .box{
+        width: 100px;
+        aspect-ratio: 1;
+        background: red;
+        border-radius: 50%;
+        box-shadow:0 0 15px rgb(83, 83, 122);
+        transition:all 2s;
+       }
+
+  .box:nth-child(1):hover{
+   transition-timing-function: ease;
+   translate: 90vw 0;
+   background: brown;
+  }
+
+  .box:nth-child(2):hover{
+   transition-timing-function: ease-in;
+   translate: 90vw 0;
+   background: pink;
+  }
+  .box:nth-child(3):hover{
+   transition-timing-function: ease-out;
+   translate: 90vw 0;
+   background: blue;
+  }
+  .box:nth-child(4):hover{
+   transition-timing-function:linear;
+   background: yellow;
+   translate: 90vw 0;
+  }
+  
+  .about{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   text-align: center;
+   margin: 50px;
+
+  }
+  .about-child{
+    border-right: 3px solid black;
+    font-size: 20px;
+  }
+.about-child:last-child{
+    border: none;
+  }
+  .social-icons {
+    text-align: center;
+  }
+  .social-icons i{
+   
+    padding: 12px 12px;
+    margin: 8px 5px;
+    font-size: 25px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: -3px -3px 7px #ffffff73,3px 3px 7px rgba(94,104,121,0.288);
+   
+   
+}
+.social-icons i:hover{
+    transition: all 0.5s linear;
+    background:#dde1e7;
+    box-shadow: inset -3px -3px 7px #ffffff73 ,
+    inset 3px 3px 7px rgba(94,104,121,0.288);
+    border-radius: 20%;
     padding: 10px;
    
 }
-
-.grid-container{
-    background-color: red;
-    padding: 20px;
-    display: grid;
-    grid-template-areas: 
-     'header header header header header header'
-     'menu main main main right right'
-     'menu footer footer footer footer footer';
-     grid-gap: 10px;
-
-     /* grid-template-columns: 500px auto auto;
-    grid-template-rows: 100px 200px ;
-    grid-column-gap: 10px;
-    grid-row-gap: 10PX;  */
-
-    
+.fa-youtube:hover{
+color: red;
+}
+.fa-brands{
+    color: blue;
 }
 
-.grid-item{
-    background-color: wheat;
-    border: 1px solid red;
-    padding: 20px;
-    font-size: 40px;
-    text-align: center;
-}
-
-/* #grid1{ */
-    /* grid-column-start: 1;
-    grid-column-end: 3; */
-    /* grid-column: 1/span 2; */ 
-     /* grid-column: 1/3; */
-     /* grid-row: 1/3; */
-/* } */
-
-#grid1{
-    grid-area: header;
-}
-#grid2{
-    grid-area: menu;
-}
-#grid3{
-    grid-area:main;
-}
-#grid4{
-    grid-area:right;
-}
-#grid5{
-    grid-area:footer;
-}
     </style>
     <hr>
 
-     <th> shopping list </th>
-    <ul>
+<div class="transition">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+</div>
+
+    <div class="box-shadow">
+        Box shadow
+    </div>
+    <br />
+
+    <div class="about">
+        <div class="about-child">
+            <h1>100+</h1>
+            <p>project</p>
+        </div>
+        <div class="about-child">
+            <h1>300+</h1>
+            <p>company collaborate</p>
+        </div>
+        <div class="about-child">
+            <h1>500+</h1>
+            <p>courses</p>
+        </div>
+        <div class="about-child">
+            <h1>24 X 7</h1>
+            <p>Available</p>
+        </div>
+    </div>
+
+    <th> shopping list </th>
+    <ul type="none">
+        <!--  unordered list -->
+        <!-- (disc bullet is default type) circle , square, -->
+
+
         <li> milk</li>
         <li> butter</li>
         <li> paneer</li>
         <li> curd</li>
         <li> ghee</li>
-        
 
     </ul>
     <hr>
-    <ol type="A">
+
+    <th> Receipe of maggie! </th>
+    <ol type="a">
+        <!-- start = 3 than start from 3,4, -->
+
+        <!-- ordered list -->
         <li>boil 1 and half cups of water</li>
         <li>break the noddle cake in half</li>
         <li>add the maggie masala</li>
@@ -176,37 +544,48 @@
 
     </ol>
     <hr>
-    <!-- description list -->
-<dl>
-     <dt>coffee</dt>   <!--description term -->
-    <dd>black hot drink</dd>
-</dl>
 
-   
-<a href="https://www.google.com" target="blank" title="google.com" style="text-decoration: none;">google</a>
- 
-  <audio controls src="01 Baarish.mp3"  type="audio/mpeg"></audio>
-  <video src="Tera Ghata.mp4" width="400" controls loop muted poster="background.jpg"></video>
 
-    <table border="1" style="border:1px solid red;"> 
-         <tr>
+    <dl>
+        <!-- description list -->
+        <dt>coffee</dt>
+        <!--description term -->
+        <dd>black hot drink</dd> <!-- description data -->
+        <dt>fruits</dt>
+        <dd>mango</dd>
+        <dd>apple</dd>
+
+    </dl>
+
+
+
+
+    <!-- links -->
+    <!-- [node js](https://nodejs.org) -->
+
+    <a href="https://www.google.com" target="_blank" title="google.com" style="text-decoration: none;">google</a>
+
+    <audio controls src="01 Baarish.mp3" type="audio/mpeg"></audio>
+    <video src="Tera Ghata.mp4" width="400" type="video/mp4" controls loop muted poster="background.jpg"></video>
+
+    <table border="1" style="border:1px solid red;">
+        <tr>
             <th>SUBJECT </th>
             <th>THEORY </th>
             <th>PRACTICAL </th>
             <th>TOTAL MARKS </th>
             <th>GRADES</th>
         </tr>
-  
-    <tbody>
-             <tr>
-                <td>MACHINE LEARNING</td>
 
+        <tbody>
+            <tr>
+                <td>MACHINE LEARNING</td>
                 <td>80</td>
                 <td>30</td>
                 <td>110</td>
                 <td>A+</td>
             </tr>
-            
+
             <tr>
                 <td>CYBER SECURITY</td>
                 <td>70</td>
@@ -222,31 +601,42 @@
                 <td>A+</td>
             </tr>
         </tbody>
-            <tfoot>
+        <tfoot>
             <th colspan="5">Result:<mark>1st division</mark></th>
-            </tfoot>
-     </table>
-     <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/WNGmNdF3_p4" title="YouTube video player" 
+        </tfoot>
+    </table>
+    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/WNGmNdF3_p4" title="YouTube video player" 
       allowfullscreen></iframe> -->
-    
-    <script >
-        //document.querySelector("#sam").innerHTML = "<h1>sam</h1>";
-       document.getElementById("sam").innerHTML = "<h1>samir</h1>";
-
-       document.getElementById("sam").onclick = abc;
-       //document.getElementById("sam").addEventListener("click",abc);
-       function abc(){
-      this.style.background = "red";
-       }
-
-       document.getElementById("sam").addEventListener("click",function(){
-        this.style.border = "10px solid blue";
-       })
-      
-    </script>
-    <p>
-        contact us on <a href="mailto:mdsamir13968@gmail.com"  style="text-decoration: none; color:rgb(230, 112, 16);">mdsamir13968@gmail.com</a>
+      <p>
+        contact us on <a href="mailto:mdsamir13968@gmail.com"
+            style="text-decoration: none; color:rgb(230, 112, 16);">mdsamir13968@gmail.com</a>
     </p>
-   
+      <div class="social-icons">
+        <a href="#" ><i class="fa-brands fa-google"></i> </a>
+        <a href="#" ><i class="fa-brands fa-facebook"></i> </a>
+        <a href="#" ><i class="fa-brands fa-instagram"></i> </a>
+        <a href="#" ><i class="fa-brands fa-linkedin"></i> </a>
+        <a href="#" ><i class="fa-brands fa-youtube"></i> </a>
+    </div>
+    <script>
+        //document.querySelector("#sam").innerHTML = "<h1>sam</h1>";
+        document.getElementById("sam").innerHTML = "<h1>samir</h1>";
+
+        document.getElementById("sam").onclick = abc;
+        //document.getElementById("sam").addEventListener("click",abc);
+        function abc() {
+            this.style.background = "red";
+        }
+
+        document.getElementById("sam").addEventListener("click", function () {
+            this.style.border = "10px solid blue";
+        })
+    </script>
+
+
+
 </body>
+
+
+
 </html>
